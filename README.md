@@ -11,6 +11,10 @@ Các cột cần huấn luyện model tập trung chủ yếu vào việc dự �
 
 ![value result](imgs/info_training.png)
 
+Demo việc gợi ý tài khoản chứng từ bán hàng theo các thông tin của chứng từ này
+
+![demo predict](imgs/demo_predict.png)
+
 Để chạy project, thực hiện các command sau
 
 ```
@@ -33,4 +37,17 @@ install package
 
 ```
 pip install -r requirements.txt
+```
+
+
+để train model, chạy file 
+
+```
+python predict_accounts.py
+```
+
+để gợi ý, chạy file
+
+```
+python predict_new_accounts.py
 ```

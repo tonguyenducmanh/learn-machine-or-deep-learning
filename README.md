@@ -10,3 +10,27 @@ Data set được sử dụng trong project này đã được xuất ra từ d�
 Các cột cần huấn luyện model tập trung chủ yếu vào việc dự đoán được các giá trị sau
 
 ![value result](imgs/info_training.png)
+
+Để chạy project, thực hiện các command sau
+
+```
+python -m venv venv
+```
+
+active venv trên window
+
+```
+venv\Scripts\activate
+```
+
+active venv trên macos/linux
+
+```
+source venv/bin/activate
+```
+
+install package
+
+```
+pip install -r requirements.txt
+```
